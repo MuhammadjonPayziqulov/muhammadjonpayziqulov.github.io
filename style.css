@@ -1,0 +1,296 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Montserrat';
+}
+
+.header{
+    max-width: 1400px;
+    margin: auto;
+    background-image: url(./image/header\ img.png);
+    background-size: cover;
+}
+
+.navbar{
+    max-width: 1100px;
+    margin: auto;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.nav_info ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 600px;
+}
+
+.nav_info ul li a{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.header_info h1{
+    margin-top: 200px;
+    color: #FFF;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px; 
+    width: 650px;
+}
+
+.header_button button{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    padding: 15px 76px; 
+    border-radius: 8px;
+    background: var(--dark-blue, #114E86);
+    border: none;
+}
+
+.header_button{
+    padding-bottom: 402px;
+    margin-top: 50px;
+}
+
+.main_wrapper{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.main{
+    margin-top: 150px;
+}
+
+.main h2{
+    text-align: center;
+    color: #000;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 36px;
+}
+
+.main_wrapper p{
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.main_text{
+    margin-top: 40px;
+    margin-bottom: 150px;
+}
+
+.menu_wrapper{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.menu_wrapper h3{
+    color: #000;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 85px;
+}
+
+.menu_cards{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.menu_card{
+    border: 1px solid #000;
+    border-radius: 8px;
+    background: #FFF;
+    margin-bottom: 159px;
+}
+
+.menu_card:hover{
+    background: var(--dark-blue, #114E86);
+}
+
+.menu_card:hover .menu_card_text,
+.menu_card:hover .menu_card_salary{
+    color: #FFF;
+}
+
+.menu_card_image{
+    text-align: center;
+    margin: 46.21px 90px 28.93px 90px;
+}
+
+.menu_card_image img{
+    border-radius: 50%;
+}
+
+.menu_card_text{
+    margin-left: 50px;
+    margin-top: 18px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.menu_card_salary{
+    margin-top: 69px;
+    margin-bottom: 35px;
+    margin-right: 35px;
+    text-align: end;
+    color: var(--dark-blue, #114E86);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.footer_wrapper{
+    background: rgba(0, 0, 0, 0.85); 
+
+}
+
+.footer{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_contact{
+    color: #FFF;
+    margin-top: 70px;
+}
+
+.footer_contact h4{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.footer_telephone{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.footer_call{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.footer_location{
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.footer_location_street{
+    width: 250px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.footer_email{
+    display: flex;
+    gap: 8px;
+    margin-top: 50px;
+}
+
+.footer_email_text{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.footer_menu{
+    margin-top: 70px;
+}
+
+.footer_menu h4{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.footer_menu_info ul li a{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 30px;
+    display: block;
+}
+
+.footer_main{
+    margin-top: 70px;
+}
+
+.footer_main h4{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.footer_form{
+    margin-top: 35px;
+}
+
+.footer_form input{
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 16px;
+    font-weight: 300;
+    background: rgba(196, 196, 196, 0.25);
+    border-radius: 8px;
+    border: none;
+    padding: 18px 0 18px 16px;
+    width: 350px;
+}
+
+.footer_form_button{
+    margin-top: 45px;
+}
+
+.footer_form_button button{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    background: rgba(0, 0, 0, 0.85);
+    padding: 20px 0;
+    width: 368px;
+    border-radius: 8px;
+    border: none;
+}
+
+.footer_under_wrapper{
+    max-width: 1100px;
+    margin: auto;
+}
+
+.footer_under{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 82px;
+    padding-bottom: 44px;
+}
+
+.footer_under_info p{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer_under_enternet ul{
+    display: flex;
+    gap: 35px;
+}
